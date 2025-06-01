@@ -12,8 +12,8 @@ public class Main {
 //        System.out.println(count2 == counter);
 //        System.out.println(counter.getTotalCalories());
 
-        DashBoard l = new DashBoard();
-        l.setContentPane(l.Dash);
+       LoginScreen l = new LoginScreen();
+        l.setContentPane(l.loginFrame);
         l.setVisible(true);
         l.setSize(700,600);
 
