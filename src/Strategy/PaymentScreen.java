@@ -270,20 +270,20 @@ public class PaymentScreen extends JFrame {
         enableCardFields(true);
     }
 
-//    public static void main(String[] args) {
-//        SwingUtilities.invokeLater(() -> {
-//            try {
-//                for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
-//                    if ("Nimbus".equals(info.getName())) {
-//                        UIManager.setLookAndFeel(info.getClassName());
-//                        break;
-//                    }
-//                }
-//            } catch (Exception ignored) {}
-//
-//            new PaymentScreen(); // just create instance, constructor shows frame
-//        });
-//    }
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            try {
+                for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
+                    if ("Nimbus".equals(info.getName())) {
+                        UIManager.setLookAndFeel(info.getClassName());
+                        break;
+                    }
+                }
+            } catch (Exception ignored) {}
+
+            new PaymentScreen(); // just create instance, constructor shows frame
+        });
+    }
 
     // Helper class for validation result
     private static class ValidationResult {

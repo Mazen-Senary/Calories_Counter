@@ -15,7 +15,7 @@ public class Main {
         DashBoard l = new DashBoard();
         l.setContentPane(l.Dash);
         l.setVisible(true);
-        l.setSize(700,600);
+        l.setSize(650,500);
 
     }
 }
