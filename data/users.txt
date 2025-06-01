@@ -1,0 +1,4 @@
+mazen@gmail.com,mazen123,1c0dcf43,20,60.0
+ahmed@gmail.com,ahmed,abb57d2c,12,32.0
+salmayasser@gmail.com,saloma,salmaxo,20,50.0
+mounir@gmail.com,mounir,1ab0158e,20,70.0

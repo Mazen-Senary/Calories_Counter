@@ -11,9 +11,6 @@ public class DashBoard extends JFrame{
     private JButton viewAllButton;
     private JLabel totalCaloriesLabel;
     private JTextField totalCaloriesNumberField;
-    private JButton LogOutButton;
-    private JTextArea textArea1;
-
     public DashBoard() {
 
 
