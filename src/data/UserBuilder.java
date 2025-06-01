@@ -1,7 +1,6 @@
-import data.User;
+package data;
 
 public interface UserBuilder {
-
     void createEmail(String email);
 
     void createUsername(String username);
@@ -14,4 +13,3 @@ public interface UserBuilder {
 
     User getUser();
 }
-

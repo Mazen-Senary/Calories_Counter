@@ -1,8 +1,10 @@
-public class ConcreteUser implements UserBuilder{
-    User user;
-    public ConcreteUser(){
-        this.user= new User();
+package data; // Corrected: Uses 'data' package
 
+public class ConcreteUser implements UserBuilder {
+    User user;
+
+    public ConcreteUser() {
+        this.user = new User(); // Correctly initializes the User object
     }
 
     @Override
@@ -19,7 +21,6 @@ public class ConcreteUser implements UserBuilder{
             throw new IllegalArgumentException("Username can't be empty");
         }
         user.setUsername(username);
-
     }
 
     @Override
@@ -28,7 +29,6 @@ public class ConcreteUser implements UserBuilder{
             throw new IllegalArgumentException("password can't be empty and at least 6 characters");
         }
         user.setPassword(Integer.toHexString(password.hashCode()));
-
     }
 
     @Override
@@ -45,7 +45,6 @@ public class ConcreteUser implements UserBuilder{
             throw new IllegalArgumentException("invalid weight");
         }
         user.setWeight(weight);
-
     }
 
     @Override

@@ -1,3 +1,5 @@
+import data.User;
+
 public class UserDirector {
     private UserBuilder userbuilder;
     public UserDirector(UserBuilder userBuilder){

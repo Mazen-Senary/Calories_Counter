@@ -1,3 +1,5 @@
+import data.DashBoard;
+
 public class DeleteCommand implements Command {
     private DashBoard dashboard;
 
